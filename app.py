@@ -16,7 +16,7 @@ st.set_page_config(
 @st.cache_resource
 def cargar_modelo():
     """Carga el pipeline serializado con preprocesamiento y modelo."""
-    return joblib.load("modelo_final_saberpro_comprimido.pkl")
+    return joblib.load("modelo_final_saberpro_comprimido_v2.pkl")
 
 
 try:
